@@ -3,7 +3,7 @@
 #分流作者：  LiXiao-36
 #更新时间：  2022-12-28
 #使用说明：  这个列表是娱乐应用的分流，用于处于公共网络环境的规则分流，避免一些麻烦
-#分流地址：  待定.list
+#分流地址：  https://raw.githubusercontent.com/LiXiao-36/QuanY/main/relax.list
 ##语法注释
 #IP 地址规则
 # ip-cidr 规则会匹配规则范围内请求的 IP 地址, 203.107.63.154/32, reject
