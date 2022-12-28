@@ -1,0 +1,45 @@
+########################################
+#分流名称：  娱乐
+#分流作者：  LiXiao-36
+#更新时间：  2022-12-28
+#使用说明：  这个列表是娱乐应用的分流，用于处于公共网络环境的规则分流，避免一些麻烦
+#分流地址：  待定.list
+##语法注释
+#IP 地址规则
+# ip-cidr 规则会匹配规则范围内请求的 IP 地址, 203.107.63.154/32, reject
+# IP-CIDR6 规则会匹配规则范围内请求的 IPv6 地址
+# GEOIP 规则会匹配相应国家和地区的 IP 地址 GEOIP,US,DIRECT
+#HTTP 规则
+# USER-AGENT 这个规则匹配相应的 USER-AGENT，可以使用像 * 或者 ? 这样的通配符 USER-AGENT,Instagram*,DIRECT
+#域名类型规则
+# HOST 当请求的域名完全匹配时，则执行该规则
+# HOST-SUFFIX 当请求的域名的后缀匹配，则执行该规则 HOST-SUFFIX,163yun.com,网易云音乐
+# HOST-KEYWORD 当请求的域名包含关键词时，执行该规则 HOST-KEYWORD,netease,网易云音乐
+# HOST-WILDCARD 当请求的域名的匹配通配符时，执行该规则
+# 参考地址https://divineengine.net/article/policy-and-filter-of-quantumult-x/
+#域名规则
+# DOMAIN 规则会匹配与请求完全相同的地址 DOMAIN,cf1.jmsooo.com
+# DOMAIN-SUFFIX 规则会匹配与请求与主域名相同的地址 DOMAIN-SUFFIX,applovin.com,REJECT 
+# DOMAIN-KEYWORD 规则会匹配包含相应关键字的域名 DOMAIN-KEYWORD,google,Proxy，也会匹配goo
+########################################
+
+# 网易云音乐
+# ^已单独导入
+
+# 哔哩哔哩视频
+HOST-SUFFIX, bilibili.com, 娱乐
+HOST-SUFFIX, bilibili.net, 娱乐
+HOST-SUFFIX, biliapi.com, 娱乐
+HOST-SUFFIX, biliapi.net, 娱乐
+
+# 抖音
+HOST-KEYWORD, douyin, 娱乐
+
+# 喜马拉雅
+HOST-SUFFIX, xmcdn.com, 娱乐
+HOST-SUFFIX, qnqcdn.net, 娱乐
+HOST, ar.ximalaya.com, reject
+
+# 酷安
+HOST-SUFFIX, coolapk.com, 娱乐
+
