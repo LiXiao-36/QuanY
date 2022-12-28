@@ -38,12 +38,6 @@ HOST-KEYWORD,douyin,娱乐
 
 # 喜马拉雅
 HOST-SUFFIX,xmcdn.com,娱乐
-HOST-SUFFIX,qnqcdn.net,reject
-HOST-KEYWORD,lms-sale-page,reject
-HOST-SUFFIX,mermaid.ximalaya.com,reject
-HOST-SUFFIX,gslbali.ximalaya.com,reject
-HOST-SUFFIX,pds.ximalaya.com,reject
-HOST-KEYWORD,business-iap-pay-mobile-web,reject
 
 # 酷安
 HOST-SUFFIX, coolapk.com, 娱乐
