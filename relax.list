@@ -27,7 +27,9 @@
 # ^已单独导入
 
 # 哔哩哔哩视频
-HOST-KEYWORD,bili,娱乐
+HOST-KEYWORD,biliapi,娱乐
+HOST-KEYWORD,bilibili,娱乐
+HOST-KEYWORD,bilivideo,娱乐
 
 # 抖音
 HOST-KEYWORD,douyin,娱乐
