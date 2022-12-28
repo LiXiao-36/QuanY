@@ -39,7 +39,7 @@ HOST-KEYWORD,douyin,娱乐
 # 喜马拉雅
 HOST-SUFFIX,xmcdn.com,娱乐
 HOST-SUFFIX,qnqcdn.net,娱乐
-HOST-SUFFIX,ximalaya.com,reject
+#HOST-SUFFIX,ximalaya.com,reject
 
 # 酷安
 HOST-SUFFIX, coolapk.com, 娱乐
