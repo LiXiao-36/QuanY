@@ -36,6 +36,13 @@ HOST-KEYWORD,douyin,娱乐
 
 # 喜马拉雅
 HOST-SUFFIX,xmcdn.com,娱乐
+HOST-KEYWORD,ximalaya,娱乐
+
+#QQ音乐
+HOST-KEYWORD,qqmusic,娱乐
+HOST-KEYWORD,aqqmusic,娱乐
+HOST-KEYWORD,music.tc,娱乐
+HOST-KEYWORD,tencentmusic,娱乐
 
 # 酷安
 HOST-SUFFIX, coolapk.com, 娱乐
