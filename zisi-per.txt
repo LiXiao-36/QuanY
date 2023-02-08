@@ -3,7 +3,7 @@
 !酷安
 /googleads/
 /wwwads/
-/mime.baidu.com/
+!/mime.baidu.com/
 !/dgstatic.jd.com/
 /pstatp/
 ||ddxq.mobi^$app=com.coolapk.market
@@ -29,7 +29,7 @@
 @@||woodpecker.uc.cn^$important
 @@||h-adashx.ut.taobao.com^$important
 !/360buy/
-/appcenter.ms/
+!/appcenter.ms/
 ||ss0.bdstatic.com^$important
 @@||eco.taobao.com^$important
 @@||audid-api.taobao.com^$important
