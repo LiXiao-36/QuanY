@@ -1,24 +1,24 @@
-!zisi-pei订阅地址：
+!zisi-pei订阅地址
 !整理自己需要的拦截规则，用于Adguard Home模块
 !酷安
 /googleads/
 /wwwads/
 /mime.baidu.com/
-/dgstatic.jd.com/
+!/dgstatic.jd.com/
 /pstatp/
 ||ddxq.mobi^$app=com.coolapk.market
 ||ctobsnssdk.com^$important
 /bcebos.com/
 /adsl.cn/
 /51dongshi/
-/360.cn/
+!/360.cn/
 /doubleclick/
 /gstatic.com/
 /bytegoofy/
 /bytescm/
 /bytetos/
 /byteorge/
-/360.cn/
+!/360.cn/
 /ctobsnssdk/
 /bcebos/
 /51donghshi/
@@ -28,7 +28,7 @@
 @@||applog.uc.cn^$important
 @@||woodpecker.uc.cn^$important
 @@||h-adashx.ut.taobao.com^$important
-/360buy/
+!/360buy/
 /appcenter.ms/
 ||ss0.bdstatic.com^$important
 @@||eco.taobao.com^$important
